@@ -3,7 +3,7 @@ class Example_Java {
         System.out.println("This is an example Java class.");
     }
 }
-class Example4 {
+public class Example4 {
     public static void main(String[] args) {
             System.out.println("This is Example4 class.");
     }
