@@ -1,6 +1,6 @@
 class Demo1{
-    int x;
-    String name;
+    private int x;
+    private String name;
 }
 public class Main5 {
     public static void main(String[] args) {
