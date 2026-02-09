@@ -19,6 +19,7 @@ public class Abstract2 {
         A.display();
         Sub B = new Sub();
         B.display();
+        // Add A = new Sub();
     }
     
 }
