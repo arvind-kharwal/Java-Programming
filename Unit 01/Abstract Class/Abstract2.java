@@ -21,5 +21,4 @@ public class Abstract2 {
         B.display();
         // Add A = new Sub();
     }
-    
 }
