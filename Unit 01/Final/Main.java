@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        final int a = 10;
-        int b = a+10;
-        System.out.println(a+" "+b);
+        final int a;
+        a = 10;
+        System.out.println(a);
     }
     
 }
