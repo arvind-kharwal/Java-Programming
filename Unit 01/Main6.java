@@ -12,5 +12,6 @@ public class Main6 {
         Example1 E1 = new Example1();
         E1.display();
         System.out.println(E1.n);
+        // int b = (E1.n)++;
     }
 }
