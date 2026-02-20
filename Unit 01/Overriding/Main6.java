@@ -23,5 +23,7 @@ public class Main6 {
     public static void main(String[] args) {
         Dog D = new Dog("Doggy", 3);
         D.show();
+        Animal A1 = new Animal("Moti");
+        A1.display();
     }
 }
