@@ -5,7 +5,7 @@ class One{
     }
 }
 
-public class First {
+public class First extends One {
     public static void main(String[] args) {
         One A = new One();
         A.display();
