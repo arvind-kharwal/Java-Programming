@@ -1,6 +1,6 @@
 package pack1;
 class One{
-    void display(){
+    public void display(){
         System.out.println("Display in Class One");
     }
 }

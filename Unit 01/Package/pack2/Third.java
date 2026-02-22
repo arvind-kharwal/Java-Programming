@@ -10,7 +10,8 @@ public class Third {
     public static void main(String[] args) {
         Three T = new Three();
         T.display3();
-        One X = new One();
+        First X = new First();
+        X.display();
 
     }
 }
