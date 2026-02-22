@@ -8,5 +8,7 @@ public class Second {
     public static void main(String[] args) {
         Two T = new Two();
         T.show();
+        One A1 = new One();
+        A1.display();
     }
 }
