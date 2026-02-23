@@ -1,6 +1,7 @@
+package pack1;
 class Example{
-    static String name = "Arvind";
-    static void display(){
+    public static String name = "Arvind";
+    public static void display(){
         System.out.println("Static fields and methods");
     }
 }
