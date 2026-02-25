@@ -1,27 +1,28 @@
 import java.util.Scanner;
 
+public class Propagation {
 
-public class Main1 {
-    static void divide(int a, int b) throws Throwable{
+    static void show(int a,int b) throws Exception{
         int r = a/b;
         System.out.println(r);
-        int c[] = {1,2};
-        c[1]= 100;
-        
     }
-    public static void main(String[] args) {
+    static void display() throws Exception{
         Scanner S = new Scanner(System.in);
         System.out.println("Enter two numbers: ");
         int a = S.nextInt();
         int b = S.nextInt();
+        show(a,b);
+        S.close();
+    }
+    public static void main(String[] args) {
         try{
-            divide(a,b);
+            display();
         }
-        catch(Throwable e){
+        catch(Exception e){
             System.out.println(e.getMessage());
         }
-        finally{
-            S.close();
-        }
+        
     }
+    
+    
 }
