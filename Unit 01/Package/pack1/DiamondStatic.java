@@ -18,9 +18,13 @@ interface Test3 extends Test1{
 
 class DTest implements Test2,Test3{
     static void display(){
-        System.out.println("display in Test3");
+        Test2.display();
+        Test3.display();
+        System.out.println("display in Dtest");
     }
 }
 public class DiamondStatic {
-    
+    public static void main(String[] args) {
+        DTest.display();
+    }
 }
