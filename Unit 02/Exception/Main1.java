@@ -5,6 +5,8 @@ public class Main1 {
     static void divide(int a, int b) throws Throwable{
         int r = a/b;
         System.out.println(r);
+        int c[] = {1,2};
+        c[3]= 100;
         
     }
     public static void main(String[] args) {
