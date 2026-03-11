@@ -4,5 +4,6 @@ class CreateArrayList {
     int n = 5;
     ArrayList<Integer> arr = new ArrayList<Integer>(n);
     System.out.println("ArrayList created successfully");
+    System.out.println(arr);
     }
 }
