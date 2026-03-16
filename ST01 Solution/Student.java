@@ -8,9 +8,10 @@ class InvalidMark extends Exception {
 
 public class  Student {
     void grade(int[] marks) throws InvalidMark {
-        System.out.println("The array in grade: ");
+        System.out.println("The marks are: ");
         for (int i = 0; i < 5; i++)
             System.out.println(marks[i]);
+
         int s = 0;
         for (int i : marks)
             if (i < 0 || i > 100)
