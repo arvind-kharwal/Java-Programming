@@ -43,6 +43,7 @@ public class Overriding {
         double r1 = C1.area();
         System.out.println("The area of circle is: "+r1);
         Triangle T1 = new Triangle(2, 8);
-        T1.area();
+        double r2 = T1.area();
+        System.out.println("The area of Triangle is: "+r2);
     }
 }
