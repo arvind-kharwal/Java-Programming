@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 class Bank{
     private int accountNumber;
-    private String accountHolderName;
     private double balance;
+    private String accountHolderName;
 
     // Constructor
     public Bank(int accountNumber, String accountHolderName, double initialBalance) {
@@ -62,13 +62,13 @@ class Bank{
 public class BankMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // Create a new bank account
+         // Create a new bank account
         System.out.print("Enter Account Number: ");
         int accountNumber = scanner.nextInt();
-        System.out.print("Enter Account Holder Name: ");
-        String accountHolderName = scanner.nextLine();
         System.out.print("Enter Initial Balance: $");
         double initialBalance = scanner.nextDouble();
+        System.out.print("Enter Account Holder Name: ");
+        String accountHolderName = scanner.next();
         Bank account = new Bank(accountNumber, accountHolderName, initialBalance);
         int choice;
         // Menu-driven loop using while loop (WITHOUT do-while)
