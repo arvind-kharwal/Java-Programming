@@ -7,7 +7,7 @@ class InvalidMark extends Exception {
 }
 
 class Student{
-void grade(int[] marks) throws InvalidMark {
+void grade(int[] marks) throws InvalidMark{
         int s = 0;
         for (int i : marks)
             if (i < 0 || i > 100)
