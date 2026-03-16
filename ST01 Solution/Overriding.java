@@ -40,6 +40,7 @@ class Rectangle extends Shape{
 public class Overriding {
     public static void main(String[] args) {
         Circle C1 = new Circle(2);
-        C1.area();
+        double r1 = C1.area();
+        System.out.println("The area of circle is: "+r1);
     }
 }
