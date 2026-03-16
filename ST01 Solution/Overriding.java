@@ -1,0 +1,45 @@
+class Shape{
+    double area(){
+        System.out.println("Area Method of Shape class");
+        return(0);
+    }
+}
+class Circle extends Shape{
+    double r;
+    Circle(double r){
+        this.r = r;
+    }
+    double area(){
+        double a = 3.14*r*r;
+        return(a);
+    }
+}
+
+class Triangle extends Shape{
+    double base,height;
+    Triangle(double base,double height){
+        this.base = base;
+        this.height = height;
+    }
+    double area(){
+        double a = 0.5*base*height;
+        return(a);
+    }
+}
+class Rectangle extends Shape{
+    double l,h;
+    Rectangle(double l,double h){
+        this.l = l;
+        this.h = h;
+    }
+    double area(){
+        double a = l*h;
+        return(a);
+    }
+}
+public class Overriding {
+    public static void main(String[] args) {
+        Circle C1 = new Circle(2);
+        C1.area();
+    }
+}
