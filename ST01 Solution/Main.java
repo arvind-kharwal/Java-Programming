@@ -6,8 +6,8 @@ class InvalidMark extends Exception {
     }
 }
 
-public class  Student {
-    void grade(int[] marks) throws InvalidMark {
+class Student{
+void grade(int[] marks) throws InvalidMark {
         int s = 0;
         for (int i : marks)
             if (i < 0 || i > 100)
@@ -28,7 +28,8 @@ public class  Student {
         else
             System.out.println("Fail");
     }
-
+}
+public class Main {
     public static void main(String[] args) {
         Scanner S = new Scanner(System.in);
         int marks[] = new int[5];
