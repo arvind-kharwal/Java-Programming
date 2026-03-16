@@ -89,8 +89,8 @@ public class BankAccountMain {
                 default:
                     System.out.println("Invalid Choice");
             }
+            S.close();
     }
-    S.close();
     }
     
 }
