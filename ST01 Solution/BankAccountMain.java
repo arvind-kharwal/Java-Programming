@@ -37,9 +37,14 @@ class BankAccount{
         }
         else
             System.out.println("Invalid Amount");
-
     }
 
+    void displaybalance(){
+        System.out.println("Account Balance");
+        System.out.println("Account Number: "+accountnumber);
+        System.out.println("Acount Holder Name: "+accountHolder);
+        System.out.println("Balance: $"+balance);
+    }
 
 }
 
@@ -77,8 +82,12 @@ public class BankAccountMain {
                     System.out.println("Enter your withdrawl Amount");
                     double withdrawlamt = S.nextDouble();
                     B1.withdrawl(withdrawlamt);
-                default:
                     break;
+                case 3:
+                    B1.displaybalance();
+                    break;
+                default:
+                    System.out.println("Invalid Choice");
             }
     }
 
