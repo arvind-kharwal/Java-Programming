@@ -45,5 +45,8 @@ public class Overriding {
         Triangle T1 = new Triangle(2, 8);
         double r2 = T1.area();
         System.out.println("The area of Triangle is: "+r2);
+        Rectangle R1 = new Rectangle(4, 8);
+        double r3 = R1.area();
+        System.out.println("The area of Rectangle is: "+r3);
     }
 }
