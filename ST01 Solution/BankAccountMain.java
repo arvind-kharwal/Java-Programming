@@ -90,6 +90,7 @@ public class BankAccountMain {
                     System.out.println("Invalid Choice");
             }
     }
-
+    S.close();
     }
+    
 }
