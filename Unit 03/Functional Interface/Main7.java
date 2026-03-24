@@ -1,6 +1,6 @@
 class Example implements Runnable{
     public void run(){
-        System.out.println("This is thread 1");
+        System.out.println("Thread 1");
     }
 }
 public class Main7 {
