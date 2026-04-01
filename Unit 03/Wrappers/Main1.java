@@ -2,5 +2,7 @@ public class Main1 {
     public static void main(String[] args) {
         Integer I1 = 10;
         System.out.println(I1);
+        boolean r = I1 instanceof Integer;
+        System.out.println(r);
     }
 }
