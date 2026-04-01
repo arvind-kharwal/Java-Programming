@@ -5,7 +5,7 @@ public class Main2 {
         System.out.println(b+" "+I1);
         int c = I1.intValue();
         System.out.println(c);
-        Float f = 12;
+        Float f = 12.0f;
         float x = f.floatValue();
         System.out.println(x);
     }
