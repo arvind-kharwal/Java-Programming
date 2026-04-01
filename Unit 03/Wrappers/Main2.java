@@ -3,5 +3,10 @@ public class Main2 {
         Integer I1 = 10;
         int b = I1;
         System.out.println(b+" "+I1);
+        int c = I1.intValue();
+        System.out.println(c);
+        Float f = 12;
+        float x = f.floatValue();
+        System.out.println(x);
     }
 }
