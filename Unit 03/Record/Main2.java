@@ -11,6 +11,5 @@ public class Main2 {
         System.out.println(S1.r());
         Student1 S2 = new Student1();
         System.out.println(S2);
-
     }
 }
