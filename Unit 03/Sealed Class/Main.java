@@ -3,9 +3,14 @@ sealed class ClassA permits ClassB{
         System.out.println("Display A method in ClassA");
     }
 }
-final class ClassB extends ClassA{
+non-sealed class ClassB extends ClassA{
     void displayB(){
         System.out.println("Display B in class B");
+    }
+}
+class Example extends ClassB{
+    void show(){
+        System.out.println("Show in Example Class");
     }
 }
 public class Main {
