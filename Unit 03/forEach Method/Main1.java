@@ -5,6 +5,6 @@ public class Main1 {
         List<Integer> list = Arrays.asList(1,2,3,4,5);
         System.out.println("The list is: "+list);
         Consumer<Integer> C = (Integer n)-> System.out.print(n);
-        list.forEach(C);;
+        list.forEach(C);
     }
 }
