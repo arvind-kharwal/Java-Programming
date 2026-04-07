@@ -6,7 +6,7 @@ public class Main {
         System.out.println("The list is: "+list);
         Consumer<Integer> C = new Consumer<>() {
             public void accept(Integer n){
-                System.out.println(n);
+                System.out.print(n);
             }
         };
         list.forEach(C);;
