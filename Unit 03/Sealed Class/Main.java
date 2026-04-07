@@ -15,8 +15,7 @@ class Example extends ClassB{
 }
 public class Main {
     public static void main(String[] args) {
-        ClassB B1 = new ClassB();
-        B1.displayA();
-        B1.displayB();
+        Example E1 = new Example();
+        E1.show();
     }
 }
