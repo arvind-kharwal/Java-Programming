@@ -18,5 +18,6 @@ public class Main {
         Example E1 = new Example();
         E1.show();
         E1.displayB();
+        E1.displayB();
     }
 }
