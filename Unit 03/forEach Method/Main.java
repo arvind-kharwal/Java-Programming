@@ -1,7 +1,14 @@
 import java.util.*;
+import java.util.function.Consumer;
 public class Main {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,2,3,4,5);
         System.out.println("The list is: "+list);
+        Consumer<Integer> C = new Consumer<>() {
+            public void accept(Integer n){
+                System.out.println(n);
+            }
+        };
+        list.forEach(C);;
     }
 }
