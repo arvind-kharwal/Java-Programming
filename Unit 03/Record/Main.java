@@ -24,5 +24,6 @@ public class Main {
         System.out.println(E1.getA());
         System.out.println(E1.getB());
         System.out.println(E1.getClass());
+        System.out.println(E1);
     }
 }
