@@ -27,6 +27,7 @@ public class Main1 {
     public static void main(String[] args) {
         Circle C1 = new Circle(2);
         C1.area();
-
+        Rectangle R1 = new Rectangle(12, 3);
+        R1.area();
     }
 }
