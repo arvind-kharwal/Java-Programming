@@ -17,5 +17,6 @@ public class Main {
     public static void main(String[] args) {
         Example E1 = new Example();
         E1.show();
+        E1.displayB();
     }
 }
