@@ -10,6 +10,7 @@ public class Main {
             System.out.println("The entered number is: "+n);
             byte b[] = FIS.readAllBytes();
             String str = new String(b);
+            System.out.println("The string read from demo.txt file");
             System.out.println(str);
         }catch(Exception e){
             e.printStackTrace();
