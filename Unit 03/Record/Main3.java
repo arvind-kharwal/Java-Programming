@@ -16,6 +16,7 @@ public class Main3 {
         Person P1 = new Person(r1, name);
         System.out.println(P1);
     }catch(IllegalArgumentException e){
+        e.printStackTrace();
         System.out.println(e.getMessage());
     }
         
