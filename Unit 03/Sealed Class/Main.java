@@ -10,6 +10,8 @@ final class ClassB extends ClassA{
 }
 public class Main {
     public static void main(String[] args) {
-        
+        ClassB B1 = new ClassB();
+        B1.displayA();
+        B1.displayB();
     }
 }
