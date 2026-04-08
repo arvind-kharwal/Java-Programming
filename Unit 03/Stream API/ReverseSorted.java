@@ -7,6 +7,7 @@ public class ReverseSorted {
         .sorted(Comparator.reverseOrder())
         .collect(Collectors.toList());
         System.out.println("Reverse order: "+res);
+        res.forEach(n->System.out.println(n));
 }
 
 }
