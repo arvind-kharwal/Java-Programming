@@ -1,11 +1,10 @@
-import java.util.Arrays;
-import java.util.Collection;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Collection<Integer> numbers = Arrays.asList(1, 2, 3);
-        numbers.add(4);
-        numbers.add(5);
+        Collection<String> numbers = new ArrayList<>();
+        numbers.add("A");
+        numbers.add("B");
         System.out.println(numbers);
     }
 }
