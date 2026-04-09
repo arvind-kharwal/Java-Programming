@@ -7,6 +7,8 @@ public class Main2 {
         numbers.add(2);
         numbers.forEach(n -> System.out.println(n));
         numbers.clear();
+        System.out.println("After clearing");
+        System.out.println(numbers);
         numbers.forEach(n -> System.out.println(n));
     }
 }
