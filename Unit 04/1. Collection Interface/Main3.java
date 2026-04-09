@@ -8,5 +8,8 @@ public class Main3 {
         numbers.forEach(n -> System.out.println(n));
         boolean res = numbers.isEmpty();
         System.out.println(res);
+        numbers.clear();
+        boolean res1 = numbers.isEmpty();
+        System.out.println(res1);
     }
 }
