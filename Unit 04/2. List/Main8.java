@@ -6,9 +6,9 @@ public class Main8 {
         list.add("C");
         list.add("C++");
         list.add("Python");
-        list.add("Java");
+        list.add("C");
         System.out.println(list);
-        int index = list.lastIndexOf("%");
-        System.out.println("The index is: " + index);
+        int index = list.lastIndexOf("C");
+        System.out.println("The Last index is: " + index);
     }
 }
