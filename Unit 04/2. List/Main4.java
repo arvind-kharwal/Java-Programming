@@ -8,5 +8,7 @@ public class Main4 {
         list.add("Python");
         list.add("Java");
         System.out.println(list);
+        list.set(1, "C#");
+        System.out.println("After Updating: " + list);
     }
 }
