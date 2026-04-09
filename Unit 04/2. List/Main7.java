@@ -9,6 +9,6 @@ public class Main7 {
         list.add("Java");
         System.out.println(list);
         int index = list.indexOf("C");
-        System.out.println(index);
+        System.out.println("The index is" + index);
     }
 }
