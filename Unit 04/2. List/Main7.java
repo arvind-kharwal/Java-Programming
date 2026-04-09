@@ -8,5 +8,7 @@ public class Main7 {
         list.add("Python");
         list.add("Java");
         System.out.println(list);
+        int index = list.indexOf("C");
+        System.out.println(index);
     }
 }
