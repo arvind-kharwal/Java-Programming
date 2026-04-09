@@ -7,7 +7,7 @@ public class Main1 {
         for (Integer i : a) {
             list.add(i);
         }
-        // list.forEach(n -> System.out.println(n));
+        list.forEach(n -> System.out.println(n));
         System.out.println(list);
     }
 }
