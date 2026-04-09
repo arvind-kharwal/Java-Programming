@@ -5,6 +5,7 @@ public class Main {
         Collection<String> numbers = new ArrayList<>();
         numbers.add("Hello");
         numbers.add("Java");
-        System.out.println(numbers);
+        // System.out.println(numbers);
+        numbers.forEach(n -> System.out.println(n));
     }
 }
