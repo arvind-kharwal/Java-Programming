@@ -7,6 +7,8 @@ public class Main9 {
         list.add("C++");
         list.add("Python");
         list.add("C");
-        System.out.println(list.get(0));
+        System.out.println(list);
+        list.clear();
+        System.out.println("After clear() method: " + list);
     }
 }
