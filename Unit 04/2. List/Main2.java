@@ -6,6 +6,10 @@ public class Main2 {
         list.add(10);
         list.add(20);
         System.out.println(list);
+        Integer[] A = list.toArray(new Integer[0]);
+        for (Integer i : A) {
+            System.out.println(i);
+        }
 
     }
 }
