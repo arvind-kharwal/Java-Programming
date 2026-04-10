@@ -7,8 +7,12 @@ public class Findany {
                 .filter(name -> name.startsWith("A"))
                 .findAny();
         // names.ifPresent(n -> System.out.println(n));
+        // if (names.isPresent()) {
+        // System.out.println(names.get());
+        // }
         if (names.isPresent()) {
             System.out.println(names.get());
-        }
+        } else
+            System.out.println("Not available");
     }
 }
