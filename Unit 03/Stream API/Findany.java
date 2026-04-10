@@ -6,6 +6,9 @@ public class Findany {
         Optional<String> names = list.stream()
                 .filter(name -> name.startsWith("A"))
                 .findAny();
-        names.ifPresent(n -> System.out.println(n));
+        // names.ifPresent(n -> System.out.println(n));
+        if (names.isPresent()) {
+            System.out.println(names.get());
+        }
     }
 }
