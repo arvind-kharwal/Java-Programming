@@ -11,7 +11,7 @@ class Student1 {
 
     @Override
     public String toString() {
-        return "Student1 [r=" + r + ", name=" + name + "]";
+        return r + " " + name;
     }
 
 }
@@ -23,6 +23,6 @@ public class Main14 {
         list.add(new Student1(30, "Yuvaan"));
         list.add(new Student1(11, "Jiya"));
         System.out.println("The data: ");
-        list.forEach(n -> System.out.print(n));
+        list.forEach(n -> System.out.println(n));
     }
 }
