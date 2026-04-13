@@ -16,5 +16,7 @@ public class Main13 {
         list.add(new Student(1, "Arvind"));
         list.add(new Student(30, "Yuvaan"));
         list.add(new Student(11, "Jiya"));
+        System.out.println("The data: ");
+        list.forEach(n -> System.out.print(n));
     }
 }
