@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Student {
     int r;
     String name;
@@ -10,6 +12,9 @@ class Student {
 
 public class Main13 {
     public static void main(String[] args) {
-
+        List<Student> list = new ArrayList<>();
+        list.add(new Student(1, "Arvind"));
+        list.add(new Student(30, "Yuvaan"));
+        list.add(new Student(11, "Jiya"));
     }
 }
