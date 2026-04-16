@@ -9,8 +9,8 @@ public class Main1 {
         M1.put(3, "A");
         Map<Integer, String> M2 = new HashMap<>();
         M2.put(1, "C");
-        M2.put(20, "B");
-        M2.put(30, "A");
+        M2.put(2, "B");
+        M2.put(3, "A");
         System.out.println(M1);
         System.out.println(M2);
     }
