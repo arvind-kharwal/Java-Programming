@@ -24,7 +24,7 @@ class Student implements Comparable<Student> {
     public int compareTo(Student S) {
         if (per == S.per)
             return 0;
-        else if (per > per)
+        else if (per > S.per)
             return 1;
         else
             return -1;
