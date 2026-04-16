@@ -15,11 +15,11 @@ class Student1 {
 
 public class UserDefList {
     public static void main(String[] args) {
-        List<Student> list = new ArrayList<>();
-        list.add(new Student(1, "Yuvaan", 90.34));
-        list.add(new Student(13, "Jiya", 96.30));
-        list.add(new Student(8, "Advika", 95.34));
-        for (Student s : list) {
+        List<Student1> list = new ArrayList<>();
+        list.add(new Student1(1, "Yuvaan", 90.34));
+        list.add(new Student1(13, "Jiya", 96.30));
+        list.add(new Student1(8, "Advika", 95.34));
+        for (Student1 s : list) {
             System.out.println(s.roll + " " + s.name + " " + s.per);
         }
     }
