@@ -15,6 +15,6 @@ public class RevSort {
         Collections.sort(list);
         System.out.println("Sorted: " + list);
         Collections.sort(list, Comparator.reverseOrder());
-        System.out.println("Reverse sorted: +list");
+        System.out.println("Reverse sorted: " + list);
     }
 }
