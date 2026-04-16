@@ -12,8 +12,8 @@ public class RevSort {
         list.add(23);
         list.add(27);
         System.out.println("Original: " + list);
-        Collections.sort(list);
-        System.out.println("Sorted: " + list);
+        // Collections.sort(list);
+        // System.out.println("Sorted: " + list);
         Collections.sort(list, Comparator.reverseOrder());
         System.out.println("Reverse sorted: " + list);
     }
