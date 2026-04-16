@@ -22,5 +22,10 @@ public class UserDefList {
         for (Student1 s : list) {
             System.out.println(s.roll + " " + s.name + " " + s.per);
         }
+        list.remove(0);
+        System.out.println("Updated list after Deletion: ");
+        for (Student1 s : list) {
+            System.out.println(s.roll + " " + s.name + " " + s.per);
+        }
     }
 }
