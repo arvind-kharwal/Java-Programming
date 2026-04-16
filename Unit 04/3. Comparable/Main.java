@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Collections;
 
-class Student {
+class Student implements Comparable<Student> {
     int roll;
     String name;
     double per;
@@ -11,6 +12,15 @@ class Student {
         this.name = name;
         this.per = per;
     }
+
+    public int compareTo(Student S) {
+        if (roll == S.roll)
+            return 0;
+        else if (roll > S.roll)
+            return 1;
+        else
+            return -1;
+    }
 }
 
 public class Main {
@@ -19,6 +29,7 @@ public class Main {
         list.add(new Student(1, "Yuvaan", 90.34));
         list.add(new Student(13, "Jiya", 96.30));
         list.add(new Student(8, "Advika", 95.34));
+        Collections.sort(list);
         for (Student s : list) {
             System.out.println(s.roll + " " + s.name + " " + s.per);
         }
