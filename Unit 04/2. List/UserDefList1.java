@@ -13,7 +13,7 @@ class Student1 {
     }
 }
 
-public class UserDefList {
+public class UserDefList1 {
     public static void main(String[] args) {
         List<Student1> list = new ArrayList<>();
         list.add(new Student1(1, "Yuvaan", 90.34));
