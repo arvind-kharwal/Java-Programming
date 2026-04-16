@@ -13,10 +13,18 @@ class Student implements Comparable<Student> {
         this.per = per;
     }
 
+    // public int compareTo(Student S) {
+    // if (roll == S.roll)
+    // return 0;
+    // else if (roll > S.roll)
+    // return 1;
+    // else
+    // return -1;
+    // }
     public int compareTo(Student S) {
-        if (roll == S.roll)
+        if (per == S.per)
             return 0;
-        else if (roll > S.roll)
+        else if (per > per)
             return 1;
         else
             return -1;
