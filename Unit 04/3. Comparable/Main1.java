@@ -22,7 +22,7 @@ public class Main1 {
         list.add(new Student1(8, "Advika", 95.34));
 
         // Sorting by roll using lambda
-        Collections.sort(list, (s1, s2) -> Double.compare(s1.per, s2.per));
+        Collections.sort(list, (s1, s2) -> s1.name.compareTo(s2.name));
 
         for (Student1 s : list) {
             System.out.println(s.roll + " " + s.name + " " + s.per);
