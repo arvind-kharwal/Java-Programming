@@ -8,5 +8,7 @@ public class Main2 {
         M1.put(2, "B");
         M1.put(3, "A");
         System.out.println(M1);
+        M1.put(2, "Java");
+        System.out.println(M1);
     }
 }
