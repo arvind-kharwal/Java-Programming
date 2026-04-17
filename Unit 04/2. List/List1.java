@@ -17,7 +17,9 @@ class Student1 implements Comparable<Student1> {
         // else
         // return -1;
         // }
-        return this.r - S1.r;
+        // return this.r - S1.r;
+        return this.name.compareTo(S1.name);
+
     }
 }
 
