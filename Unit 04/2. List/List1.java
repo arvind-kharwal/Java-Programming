@@ -10,12 +10,14 @@ class Student1 implements Comparable<Student1> {
     }
 
     public int compareTo(Student1 S1) {
-        if (r == S1.r)
-            return 0;
-        else if (r > S1.r)
-            return 1;
-        else
-            return -1;
+        // if (this.r == S1.r)
+        // return 0;
+        // else if (this.r > S1.r)
+        // return 1;
+        // else
+        // return -1;
+        // }
+        return this.r - S1.r;
     }
 }
 
