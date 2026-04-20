@@ -1,7 +1,12 @@
 package com.abes.cse18;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class Example {
-    void display() {
-        System.out.println("Hello world");
+    @RequestMapping("/")
+    String display() {
+        return "<h1> Hello World</h1>";
     }
 }
